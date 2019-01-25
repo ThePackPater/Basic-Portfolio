@@ -1,0 +1,119 @@
+body {
+
+    font-size: 1em;
+    background-color: lightgoldenrodyellow;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    
+    
+}
+
+#nametab {
+
+    float: left;
+    width: 10%;
+    height: 5%;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background: lightgoldenrodyellow;
+    border: 3px solid whitesmoke;
+
+}
+
+header {
+
+    background-color: #FFA500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+ul {
+
+    display: inline-flex;
+    justify-content: space-around;
+    float: right;
+    padding: 10px;
+    margin-right: 35px;
+    font-size: 25px;
+
+}
+
+h1 {
+
+    font-display: bolder;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+
+div {
+
+    background-color: blue;
+    font: bolder;
+    color: aquamarine;
+
+}
+
+article {
+
+    border: 1px;
+    background-color: aquamarine;
+    width: 100%;
+    margin: 10px;
+
+}
+
+img {
+
+    float: left;
+        
+}
+
+p {
+
+    float: left;
+    font-style: oblique;
+    text-emphasis: bold;
+    
+}
+
+
+form {
+
+    width: 50%;
+    background: goldenrod;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+form input, textarea {
+
+    border: 0;
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+footer {
+    
+    display: flex;
+    height: 25%;
+    padding: 20px;
+    clear: both;
+    background: #FFA500;
+  }
