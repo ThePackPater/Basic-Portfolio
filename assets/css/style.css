@@ -1,6 +1,7 @@
 body {
 
-    font-size: 1em;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgoldenrodyellow;
     padding: 0;
     height: 100%;
@@ -10,62 +11,98 @@ body {
     
 }
 
+div {
+    display: flex;    
+    height: 50px;
+    width: 50px;
+    background: lightgoldenrodyellow;
+    border: solid 5px burlywood;
+    border-radius: 5px;
+
+}
+
 #nametab {
 
     float: left;
-    width: 10%;
-    height: 5%;
+    width: 200px;
+    height: 50px;
     padding: 20px;
-    margin-top: 15px;
-    margin-left: 45px;
+    margin-top: 50px;
+    margin-left: 75px;
     text-align: center;
     font-size: 35px;
+    font-weight: bolder;
     color: black;
     background: lightgoldenrodyellow;
-    border: 3px solid whitesmoke;
+    border: solid 5px burlywood;
+    border-radius: 5px;
+
+}
+
+a {
+
+    color: black;
 
 }
 
 header {
 
-    background-color: #FFA500;
+    background: url(https://cdn.pixabay.com/photo/2016/07/14/09/04/texture-1516370_960_720.jpg);
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     font-size: 12px;
 }
 
-ul {
+.transfer {
 
     display: inline-flex;
     justify-content: space-around;
+    width: 500px;
+    height: 50px;
     float: right;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 50px;
     margin-right: 35px;
-    font-size: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 400;
+    background: lightgoldenrodyellow;
+    border: solid 5px burlywood;
+    border-radius: 5px;
+   
 
+}
+
+#about {
+
+    display: block;
 }
 
 h1 {
 
+    padding: 5px;
+    font-size: 25px;
+    margin-left: 40px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+
+}
+
+#me {
+
+    color: antiquewhite;
     font-display: bolder;
     font-size: 25px;
-    margin-left: 25px;
+    margin-left: 40px;
+    font-weight: 300;
 }
 
-
-div {
-
-    background-color: blue;
-    font: bolder;
-    color: aquamarine;
-
-}
 
 article {
 
     border: 1px;
-    background-color: aquamarine;
     width: 100%;
     margin: 10px;
 
@@ -74,6 +111,12 @@ article {
 img {
 
     float: left;
+    margin: 5px;
+    padding: 10px;
+    background-color: #FFA500;
+    border-radius: 5px;
+    border: solid 5px burlywood;
+
         
 }
 
@@ -85,16 +128,35 @@ p {
     
 }
 
+#grid {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+section {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+
+}
+
 
 form {
 
-    width: 50%;
-    background: goldenrod;
+    width: 75%;
+    background: rgb(61, 26, 10);
     padding: 20px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     margin: 20px;
+    margin-bottom: 40px;
+
 
 }
 
@@ -109,11 +171,24 @@ form input, textarea {
 }
 
 
+aside {
+
+  float: right;
+  margin-right: 25px;
+
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  
+
+}
+
+
 footer {
     
     display: flex;
-    height: 25%;
+    height: 100px;
     padding: 20px;
     clear: both;
-    background: #FFA500;
-  }
+    background: url(https://cdn.pixabay.com/photo/2016/07/14/09/04/texture-1516370_960_720.jpg);
+}
