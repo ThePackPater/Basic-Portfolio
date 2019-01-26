@@ -33,7 +33,7 @@ div {
 #nametab {
 
     float: left;
-    width: 275px;
+    width: 260px;
     height: 50px;
     padding: 20px;
     margin-top: 50px;
@@ -81,8 +81,17 @@ header {
     background: lightgoldenrodyellow;
     border: solid 5px burlywood;
     border-radius: 5px;
+    color: black;
 
 }
+
+.switch:hover {
+
+    color: darkgreen;
+    font-weight: 800;
+
+}
+
 
 #about {
 
@@ -145,6 +154,12 @@ p {
 
 }
 
+.grid2:hover {
+
+    border: solid 3px lightgreen;
+
+}
+
 section {
 
     display: flex;
@@ -162,6 +177,12 @@ section {
     margin-left: 255px;
     font-size: 15px;
     font-weight: 500;
+
+}
+
+#submit:hover {
+
+    background-color: green;
 
 }
 
@@ -212,3 +233,5 @@ footer {
     background: url(https://cdn.pixabay.com/photo/2016/07/14/09/04/texture-1516370_960_720.jpg);
 
 }
+
+    
