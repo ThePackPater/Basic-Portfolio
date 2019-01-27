@@ -33,11 +33,11 @@ div {
 #nametab {
 
     float: left;
+    position: relative;
     width: 260px;
     height: 50px;
     padding: 20px;
-    margin-top: 50px;
-    margin-left: 75px;
+    margin: 50px 0px 0px 75px;
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
@@ -164,7 +164,7 @@ section {
 
     display: flex;
     justify-content: space-around;
-    margin: 30px;
+    margin: 0px 30px 30px 30px;
 
 }
 
